@@ -1,4 +1,4 @@
 // Your code here
-const mapToNegativize(sourceArray) = () => {
+const mapToNegativize = (sourceArray) => {
   
 }
