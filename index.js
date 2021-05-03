@@ -2,3 +2,12 @@
 const mapToNegativize = (sourceArray) => {
   
 }
+
+const mapToNoChange = (sourceArray) => {
+  
+}
+
+const mapToDouble = (sourceArray) => {
+  
+}
+
