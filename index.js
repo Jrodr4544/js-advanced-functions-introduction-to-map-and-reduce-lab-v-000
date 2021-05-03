@@ -4,7 +4,7 @@ const mapToNegativize = (sourceArray) => {
 }
 
 const mapToNoChange = (sourceArray) => {
-  return sourceArray.map( x )
+  return sourceArray.map( x => x )
 }
 
 const mapToDouble = (sourceArray) => {
