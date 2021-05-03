@@ -16,11 +16,11 @@ const mapToSquare = (sourceArray) => {
 }
 
 const reduceToTotal = (sourceArray) => {
-  return sourceArray.reduce((sum, value) => sum + value, initialValue)
+  return sourceArray.reduce((sum, value) => sum + value)
 }
 
 const reduceToAllTrue = (sourceArray) => {
-  return sourceArray.reduce((a,b) => a === true ? true : false)
+  return sourceArray.reduce((a,b) => a === b ? true : false)
 }
 
 const reduceToAnyTrue = (sourceArray) => {
