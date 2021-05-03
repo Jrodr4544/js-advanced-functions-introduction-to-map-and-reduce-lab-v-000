@@ -8,7 +8,7 @@ const mapToNoChange = (sourceArray) => {
 }
 
 const mapToDouble = (sourceArray) => {
-  
+  return sourceArray.map( x => x * 2 )
 }
 
 const mapToSquare = (sourceArray) => {
