@@ -1,6 +1,6 @@
 // Your code here
 const mapToNegativize = (sourceArray) => {
-  return sourceArray.map()
+  return sourceArray.map( x => x * -1 )
 }
 
 const mapToNoChange = (sourceArray) => {
