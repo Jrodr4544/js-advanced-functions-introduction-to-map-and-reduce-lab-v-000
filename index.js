@@ -16,7 +16,7 @@ const mapToSquare = (sourceArray) => {
 }
 
 const reduceToTotal = (sourceArray) => {
-  return sourceArray.reduce((sum, value) => sum + value)
+  return sourceArray.reduce((sum, value) => sum + value), initialValue)
 }
 
 const reduceToAllTrue = (sourceArray) => {
