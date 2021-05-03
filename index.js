@@ -12,7 +12,7 @@ const mapToDouble = (sourceArray) => {
 }
 
 const mapToSquare = (sourceArray) => {
-  
+  return sourceArray.map(Math.sqr)
 }
 
 const reduceToTotal = (sourceArray) => {
