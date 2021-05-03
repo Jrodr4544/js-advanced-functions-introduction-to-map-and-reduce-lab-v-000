@@ -11,3 +11,6 @@ const mapToDouble = (sourceArray) => {
   
 }
 
+const mapToSquare = (sourceArray) => {
+  
+}
