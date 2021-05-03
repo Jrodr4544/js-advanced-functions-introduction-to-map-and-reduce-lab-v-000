@@ -21,7 +21,7 @@ const reduceToTotal = (sourceArray) => {
 }
 
 const reduceToAllTrue = (sourceArray) => {
-  
+  return sourceArray.reduce()
 }
 
 const reduceToAnyTrue = (sourceArray) => {
