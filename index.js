@@ -20,7 +20,7 @@ const reduceToTotal = (sourceArray, startingPoint = 0) => {
 }
 
 const reduceToAllTrue = (sourceArray) => {
-  return sourceArray.reduce((a,b) => a === true ? true : false)
+  return sourceArray.reduce((a,b) => a && b ? true : false)
 }
 
 const reduceToAnyTrue = (sourceArray) => {
