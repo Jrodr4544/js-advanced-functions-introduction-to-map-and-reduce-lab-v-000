@@ -15,7 +15,7 @@ const mapToSquare = (sourceArray) => {
   return sourceArray.map( x => x * x )
 }
 
-const reduceToTotal = (sourceArray) => {
+const reduceToTotal = (sourceArray, startingPoint = 0) => {
   return sourceArray.reduce((sum, value) => sum + value)
 }
 
