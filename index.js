@@ -24,5 +24,5 @@ const reduceToAllTrue = (sourceArray) => {
 }
 
 const reduceToAnyTrue = (sourceArray) => {
-  
+  return sourceArray.reduce((a,b) => a || b ? true : false)
 }
